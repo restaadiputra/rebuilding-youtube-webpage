@@ -1,0 +1,4 @@
+node_modules
+*tailwind.css
+yarn.lock
+package-lock.json
