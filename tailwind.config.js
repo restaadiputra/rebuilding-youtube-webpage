@@ -27,9 +27,11 @@ module.exports = {
       colors: {
         'gray-100-youtube': '#F9F9F9',
         'gray-200-youtube': '#F0F0F0',
+        'gray-300-youtube': '#E0E0E0',
         'gray-400-youtube': '#CCCCCC',
         'gray-600-youtube': '#606060',
         'gray-700-youtube': '#333333',
+        'red-youtube': '#FF0000',
       },
       fontSize: {
         '2xs': '0.625rem',
