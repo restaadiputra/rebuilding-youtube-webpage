@@ -7,7 +7,10 @@
   <title>Document</title>
 </head>
 <body class="bg-gray-100-youtube text-gray-900 antialiased">
+
+  <!-- HEADER START -->
   <header class="flex items-center justify-between bg-white h-14 fixed z-10 w-full px-6 py-4">
+    <!-- LOGO AND MENU START -->
     <div class="flex">
       <button class="mr-6">
         <svg class="h-6 w-6 p-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
@@ -19,9 +22,22 @@
         </a>
       </div>
     </div>
-    <div class="">search</div>
+    <!-- LOGO AND MENU  END -->
+
+    <!-- SEARCH BAR START -->
+    <div class="flex rounded-sm overflow-hidden">
+      <input type="text" placeholder="Search" class="border border-gray-400-youtube px-3 py-1 border-r-0" style="width: 575px;">
+      <button class="bg-gray-100-youtube hover:bg-gray-200-youtube border border-gray-400-youtube px-3 py-1 text-gray-700-youtube group" style="width: 65px;">
+        <svg class="h-4 w-4 text-gray-400-youtube group-hover:text-gray-700-youtube mx-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill="currentColor" d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/></svg>
+      </button>
+    </div>
+    <!-- SEARCH BAR END -->
+
+
     <div class="">account</div>
   </header>
+  <!-- HEADER END -->
+
   <main class="flex min-h-screen pt-14">
     <div id="sidebar" class="w-60 bg-white overflow-y-auto">
       sidebar

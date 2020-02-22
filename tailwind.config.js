@@ -19,11 +19,15 @@ module.exports = {
         ],
       },
       spacing: {
+        '_5': '0.125rem',
         '14': '3.5rem',
         '60': '15rem',
       },
       colors: {
         'gray-100-youtube': '#F9F9F9',
+        'gray-200-youtube': '#F0F0F0',
+        'gray-400-youtube': '#CCCCCC',
+        'gray-700-youtube': '#333333',
       },
       fontSize: {
         '2xs': '0.625rem',
@@ -31,6 +35,8 @@ module.exports = {
       }
     },
   },
-  variants: {},
+  variants: {
+    textColor: ['responsive', 'hover', 'focus', 'group-hover'],
+  },
   plugins: [],
 }
