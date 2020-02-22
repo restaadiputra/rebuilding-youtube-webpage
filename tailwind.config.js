@@ -20,6 +20,7 @@ module.exports = {
       },
       spacing: {
         '_5': '0.125rem',
+        '7': '1.75rem',
         '14': '3.5rem',
         '60': '15rem',
       },
@@ -27,6 +28,7 @@ module.exports = {
         'gray-100-youtube': '#F9F9F9',
         'gray-200-youtube': '#F0F0F0',
         'gray-400-youtube': '#CCCCCC',
+        'gray-600-youtube': '#606060',
         'gray-700-youtube': '#333333',
       },
       fontSize: {
