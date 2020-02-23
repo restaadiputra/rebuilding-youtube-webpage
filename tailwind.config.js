@@ -34,6 +34,7 @@ module.exports = {
         'red-youtube': '#FF0000',
       },
       fontSize: {
+        'sm-': '0.850rem',
         '2xs': '0.625rem',
         '3xs': '0.5rem'
       }
