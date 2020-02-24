@@ -21,6 +21,7 @@ module.exports = {
       spacing: {
         '_5': '0.125rem',
         '7': '1.75rem',
+        '9': '2.25rem',
         '14': '3.5rem',
         '60': '15rem',
       },
@@ -42,6 +43,7 @@ module.exports = {
   },
   variants: {
     textColor: ['responsive', 'hover', 'focus', 'group-hover'],
+    opacity: ['responsive', 'hover', 'focus', 'group-hover']
   },
   plugins: [],
 }
